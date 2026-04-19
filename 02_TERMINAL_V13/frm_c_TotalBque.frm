@@ -1,0 +1,233 @@
+VERSION 5.00
+Object = "{5E9E78A0-531B-11CF-91F6C2863C385E30}#1.0#0"; "C:\Windows\SysWow64\MSFLXGRD.OCX"
+Begin VB.Form frm_c_TotalBque
+  Caption = "frm_c_TotalBque"
+  BackColor = &HFFFFFF&
+  ScaleMode = 1
+  AutoRedraw = False
+  FontTransparent = True
+  BorderStyle = 1 'Fixed Single
+  'Icon = n/a
+  LinkTopic = "Form2"
+  MaxButton = 0   'False
+  MinButton = 0   'False
+  ClientLeft = 45
+  ClientTop = 390
+  ClientWidth = 6330
+  ClientHeight = 1710
+  StartUpPosition = 2 'CenterScreen
+  Begin MSFlexGridLib.MSFlexGrid MSFfechaCa
+    Left = 120
+    Top = 600
+    Width = 7335
+    Height = 1095
+    TabIndex = 0
+    OleObjectBlob = "frm_c_TotalBque.frx":0000
+  End
+  Begin VB.Label Label2
+    Caption = "buque"
+    Left = 360
+    Top = 240
+    Width = 855
+    Height = 375
+    TabIndex = 9
+    BeginProperty Font
+      Name = "MS Sans Serif"
+      Size = 12
+      Charset = 0
+      Weight = 700
+      Underline = 0 'False
+      Italic = 0 'False
+      Strikethrough = 0 'False
+    EndProperty
+  End
+  Begin VB.Label LblTotal
+    Caption = "Label1"
+    BackColor = &HC0FFC0&
+    Left = 2640
+    Top = 360
+    Width = 1215
+    Height = 375
+    TabIndex = 8
+    Alignment = 1 'Right Justify
+    BeginProperty Font
+      Name = "MS Sans Serif"
+      Size = 9.75
+      Charset = 0
+      Weight = 700
+      Underline = 0 'False
+      Italic = 0 'False
+      Strikethrough = 0 'False
+    EndProperty
+  End
+  Begin VB.Label Label4
+    Caption = "Total:"
+    Left = 3000
+    Top = 0
+    Width = 855
+    Height = 375
+    TabIndex = 7
+    BeginProperty Font
+      Name = "MS Sans Serif"
+      Size = 12
+      Charset = 0
+      Weight = 700
+      Underline = 0 'False
+      Italic = 0 'False
+      Strikethrough = 0 'False
+    EndProperty
+  End
+  Begin VB.Label lblCam
+    Caption = "label2"
+    BackColor = &HC0FFC0&
+    Left = 5520
+    Top = 360
+    Width = 855
+    Height = 375
+    TabIndex = 6
+    Alignment = 2 'Center
+    BeginProperty Font
+      Name = "MS Sans Serif"
+      Size = 9.75
+      Charset = 0
+      Weight = 700
+      Underline = 0 'False
+      Italic = 0 'False
+      Strikethrough = 0 'False
+    EndProperty
+  End
+  Begin VB.Label Label3
+    Caption = "Cam"
+    Left = 5640
+    Top = 0
+    Width = 735
+    Height = 375
+    TabIndex = 5
+    BeginProperty Font
+      Name = "MS Sans Serif"
+      Size = 12
+      Charset = 0
+      Weight = 700
+      Underline = 0 'False
+      Italic = 0 'False
+      Strikethrough = 0 'False
+    EndProperty
+  End
+  Begin VB.Label Lblmanif
+    Caption = "Label1"
+    BackColor = &HC0FFC0&
+    Left = 1320
+    Top = 360
+    Width = 1215
+    Height = 375
+    TabIndex = 4
+    Alignment = 1 'Right Justify
+    BeginProperty Font
+      Name = "MS Sans Serif"
+      Size = 9.75
+      Charset = 0
+      Weight = 700
+      Underline = 0 'False
+      Italic = 0 'False
+      Strikethrough = 0 'False
+    EndProperty
+  End
+  Begin VB.Label Lblbal
+    Caption = "Label1"
+    BackColor = &HC0FFC0&
+    Left = 4080
+    Top = 360
+    Width = 1215
+    Height = 375
+    TabIndex = 3
+    Alignment = 1 'Right Justify
+    BeginProperty Font
+      Name = "MS Sans Serif"
+      Size = 9.75
+      Charset = 0
+      Weight = 700
+      Underline = 0 'False
+      Italic = 0 'False
+      Strikethrough = 0 'False
+    EndProperty
+  End
+  Begin VB.Label Label1
+    Caption = "Manif:"
+    Left = 1680
+    Top = 0
+    Width = 855
+    Height = 375
+    TabIndex = 2
+    BeginProperty Font
+      Name = "MS Sans Serif"
+      Size = 12
+      Charset = 0
+      Weight = 700
+      Underline = 0 'False
+      Italic = 0 'False
+      Strikethrough = 0 'False
+    EndProperty
+  End
+  Begin VB.Label Label5
+    Caption = "Bal"
+    Left = 4560
+    Top = 0
+    Width = 855
+    Height = 495
+    TabIndex = 1
+    BeginProperty Font
+      Name = "MS Sans Serif"
+      Size = 12
+      Charset = 0
+      Weight = 700
+      Underline = 0 'False
+      Italic = 0 'False
+      Strikethrough = 0 'False
+    EndProperty
+  End
+End
+
+Attribute VB_Name = "frm_c_TotalBque"
+
+
+Private Sub Form_Load() '5A20F0
+  loc_005A20F0: push ebp
+  loc_005A20F1: mov ebp, esp
+  loc_005A20F3: sub esp, 0000000Ch
+  loc_005A20F6: push 00404CC6h ; __vbaExceptHandler
+  loc_005A20FB: mov eax, fs:[00000000h]
+  loc_005A2101: push eax
+  loc_005A2102: mov fs:[00000000h], esp
+  loc_005A2109: sub esp, 00000008h
+  loc_005A210C: push ebx
+  loc_005A210D: push esi
+  loc_005A210E: push edi
+  loc_005A210F: mov var_C, esp
+  loc_005A2112: mov var_8, 00403F68h
+  loc_005A2119: mov esi, Me
+  loc_005A211C: mov eax, esi
+  loc_005A211E: and eax, 00000001h
+  loc_005A2121: mov var_4, eax
+  loc_005A2124: and esi, FFFFFFFEh
+  loc_005A2127: push esi
+  loc_005A2128: mov Me, esi
+  loc_005A212B: mov ecx, [esi]
+  loc_005A212D: call [ecx+00000004h]
+  loc_005A2130: mov edx, [esi]
+  loc_005A2132: push esi
+  loc_005A2133: call [edx+00000704h]
+  loc_005A2139: mov var_4, 00000000h
+  loc_005A2140: mov eax, Me
+  loc_005A2143: push eax
+  loc_005A2144: mov ecx, [eax]
+  loc_005A2146: call [ecx+00000008h]
+  loc_005A2149: mov eax, var_4
+  loc_005A214C: mov ecx, var_14
+  loc_005A214F: pop edi
+  loc_005A2150: pop esi
+  loc_005A2151: mov fs:[00000000h], ecx
+  loc_005A2158: pop ebx
+  loc_005A2159: mov esp, ebp
+  loc_005A215B: pop ebp
+  loc_005A215C: retn 0004h
+End Sub

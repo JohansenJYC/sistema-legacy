@@ -1,0 +1,25 @@
+# Ignore everything
+*
+
+# Allow .gitignore itself
+!.gitignore
+
+# Allow folders and their contents
+!02_TERMINAL_V13/
+!02_TERMINAL_V13/**
+!03_SYNC_WebControl/
+!03_SYNC_WebControl/**
+
+# Allow DB_Schemas folder but ignore its content except EPLANTA.mdb
+!DB_Schemas/
+DB_Schemas/*
+!DB_Schemas/EPLANTA.mdb
+
+# Common exclusions
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.pidb
+*.log
